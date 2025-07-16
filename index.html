@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>1128 ARABICCA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#">Arabicca</a></li>
+                <li><a href="#">Kupalino</a></li>
+                <li><a href="#">LeynC2</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>kaizu arabicakes:)</h1>
+        <p>IN ARABICCA WE TRUST<br>DONT BLAME THE ARABICCA</p>
+        <div>
+            <button><span></span>discord.gg/arabicca</button>
+            <button><span></span>discord.gg/kupalino</button>
+        </div>
+
+        <div class="audio-player">
+            <audio id="myAudio" controls>
+                <source src="8Shots.mp3" type="audio/mpeg">
+                Your browser does not support audio element.
+            </audio>
+        </div>
+        
+        <!-- Add the audio element -->
+        <audio id="myAudio" src="8Shots.mp3"></audio>
+    </div>
+
+    <script>
+        const audio = document.getElementById('myAudio');
+        audio.volume = 0.5; // Set default volume to 50%
+    </script>
+
+</body>
+</html>
